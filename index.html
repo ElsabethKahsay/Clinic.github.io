@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manage landing page</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/additional.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <section id="hero" >
+    <nav class="relative  p-6 ">
+      <div class="flex  items-center md:justify-evenly  justify-between  mx-auto">
+        <div class="">
+          <a href="#hero"> <img src="Resources/logo.png" alt="logo" width="50"></a>
+        </div>
+        <div class=" hidden md:flex space-x-12 text-2xl">
+
+          <a href="#second" class="hover:text-gray-700 hover:underline  hover:underline-offset-8 ">About Us</a>
+          <a href="#third" class="hover:text-blue-700">Services</a>
+          <a href="#forth" class="hover:text-gray-700">Our Staff</a>
+          <a href="#fifth" class="hover:text-gray-700">Contact us</a>
+
+        </div>
+        <a class=" -mt-1"
+          href="https://www.google.com/maps/dir/9.0125004,38.772912/enederase+clinic/@9.0230836,38.7594833,15z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x164b852151d1e9ab:0x98efdcf569c9bc88!2m2!1d38.759807!2d9.033427"><img
+            src="Resources/location.svg" width="30px"></a>
+        <button id="btn" class="open hamburger md:hidden flex flex-col">
+          <span class="hamburger_top"></span>
+          <span class="hamburger_middle"></span>
+          <span class="hamburger_bottom"></span>
+        </button>
+      </div>
+      <div class="md:hidden w-20 bg-slate-700">
+        <div id="menu_list"
+          class="md:hidden absolute flex flex-col items-center font-bold shadow-2xl p-8 mt-5 space-y-8 bg-white sm:w-auto sm:self-start left-6 rigt-6 drop-shadow-md">
+          <a href="#second">About us</a>
+          <a href="#third">Services</a>
+          <a href="#fourth">Our Stuff</a>
+          <a href="#fifth">Contact us</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="hero_in"
+      class="container flex flex-col-reverse md:justify-between items-center px-6 mx-auto mt-6 space-y-0 md:space-y-0 md:flex-row">
+      <div id="card1" class="md:mt-96 mt-10 rounded-lg ">
+
+        <div class="flex flex-col rounded-lg  items-center p-5 space-y-6  bg-rose-100 shadow-2xl lg:w-1/1">
+
+          <h5 class="text-xl font-bold">Incase of Emergency</h5>
+          <p class="text-xl ">
+            Our clinic works 24/7 but for emergency
+          <ul class="text-xl 	font-weight: 700">
+            <li> 8035 for Tebita ambulance</li>
+            <li><a href="">+251 115 533 93 </a></li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div id="ed" class="flex flex-col mt-0 md-mt-20 space-y-12 md:w-1/2">
+        <h1 id="title" class=" text-4xl font-bold text-center md:text-6xl md:text-center">
+          እንደራሴ Medium Clinics
+        </h1>
+        <p class="max-w-sm text-center text-xl text-gray-600 md:text-center">
+          Visionary family Doctors clinic
+        <p class="text-center  text-xl">
+          <b>Benefiting from healthcare shouldn’t be a matter of luck. </b>
+        </p>
+        </p>
+        <div class="flex justify-center md:justify-start">
+          <a href="#second"
+            class="p-4 hidden md:flex -mt-10 px-6 text-2xl  text-white bg-blue-500 rounded-lg baseline hover:bg-blue-300 hover:text-black">Learn
+            More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="second">
+    <div id="sec"
+      class="container  max-w-screen-7xl pt-10 flex flex-col justify-evenly items-center px-6 mx-auto space-y-0 md:space-y-12 ">
+      <div class=" space-y-12  items-center text-center flex-col justify-center">
+        <h1 class="max-w-md text-4xl md:mt-20 mb-16 font-bold text-center md:text-6xl ">
+          Who are we?
+        </h1>
+        <p id="whoarewe" class="md:text-xl text-center text-black ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum onsectetur adipisicing elit.
+          Consectetur harumonsectetur adipisicing elit. Consectetur harumonsectetur adipisicing elit. Consectetur harum
+          deserunt accusamus, modi itaque illo inventore consequatur ipsam magnam cum, tenetur aliquam corporis cumque
+          voluptatibus adipisci. Natus nostrum repellendus numquam culpa sit sunt ducimus corporis?
+        </p>
+
+      </div>
+
+      <div class="parent-div mx-auto grid grid-cols-1 items-center pt-20 lg:grid-cols-3 md:space-x-6 space-y-12">
+
+        <div class="card p-5   mx-auto rounded-lg">
+          <div id="box" class="p-5 bg-blue-200 ">
+
+            <h5 class="text-2xl font-bold">Mission</h5>
+            
+              <ul class="md:text-lg list-disc">
+                <li> To create healthy and productive society</li>
+                <li> Providing healthcare for all and also supporting people with lower income level  </li>
+                <li> To provide compassionate, accessible, high quality, cost effective healthcare to  all. </li>
+                <li> Being a competitive center both from private and public health unit</li>
+              </ul>
+            
+          </div>
+
+        </div>
+        <div class="card p-7  mx-auto rounded-lg">
+          <div id="box" class="p-5 bg-blue-200">
+
+            <h5 class="text-2xl font-bold">Vision</h5>
+            <p class="md:text-lg">
+                To optimize our visionary family doctors clinic servic to a hospital level  to offer better and more qualified care. <br>To provide Hope,
+              Care Cure and cultivate an inistitute of trust, honesty, mutual respect, equity, and ethics.
+            </p>
+          </div>
+
+
+        </div>
+        <div class="card p-5   mx-auto rounded-lg">
+          <div id="box" class="p-5 bg-blue-200">
+            <h5 class="text-2xl font-bold">Values</h5>
+            <ul class="list-disc md:text-lg">
+              <li> Integrity: Doing the right thing</li>
+              <li> Compassion: Being Empathetic</li>
+              <li> Politness and Respect: Valuing everyone</li>
+              <li>Accountability: Being responsible and taking proper actions </li>
+              <li>Patient centered service: Putting patients first </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section id="third">
+    <div id="thir"
+      class="container  max-w-screen-7xl md:pt-5 flex flex-col text-center justify-evenly items-center px-6 mx-auto space-y-0 md:space-y-12 ">
+      <div class=" space-y-12 my-10  items-center flex-col md:justify-center">
+        <h1 class="max-w-lg text-4xl md:mt-20 mb-14 font-bold ml-3 md:text-6xl ">
+          What do we offer?
+        </h1>
+        <p id="whatoffer" class="md:text-xl md:my-14 text-center text-black ">
+          Lorem ipsum dolor Consectetur harumonsectetur adipisicing elit. Consectetur harum deserunt accusamus, modi
+          itaque illo inventore consequatur ipsam magnam cum, tenetur aliquam corporis cumque voluptatibus adipisci.
+          Natus nostrum repellendus numquam culpa sit sunt ducimus corporis?
+        </p>
+
+      </div>
+
+      <div id="grid" class="parent-div2 mt-10 mx-auto flex align-center">
+
+        <div id="services" class="card p-3  bg-blue-100  rounded-lg">
+          <img src="Resources/general health.jpg" height="230px" width="300px">
+          <p class="text-center">General adult and child health care </p>
+        </div>
+        <div id="services" class="card p-3  bg-blue-200 rounded-lg">
+          <img src="Resources/maternal.webp.webp" height="250px" width="300px">
+          <p class="text-center">Pre and postnatal care</p>
+        </div>
+
+        <div id="services" class="card p-3   bg-blue-300  rounded-lg">
+          <img src="Resources/minimal surgerys.jpg" height="250px" width="300px">
+          <p class="text-center">Minimal surgeries and ring circumsision </p>
+        </div>
+
+        <div id="services" class="card p-3   bg-blue-300  rounded-lg">
+          <img src="img/tb.jpg">
+          <p class="text-center">TB test and treatment </p>
+        </div>
+
+        <div id="services" class="card p-3   bg-blue-300  rounded-lg">
+          <img src="Resources/lab.jpg" height="250px" width="300px">
+          <p class="text-center">Full labratory including CBC</p>
+        </div>
+        <div id="services" class="card p-3 bg-blue-300  rounded-lg">
+          <img src="Resources/emergency.png" height="200px" width="300px">
+          <p class="text-center">Emergency services </p>
+        </div>
+        <div id="services" class="card p-3 w-1/4  bg-blue-300 mrounded-lg">
+          <img src="Resources/Family.jpg" height="250px" width="300px">
+          <p class="text-center">Family planning</p>
+        </div>
+
+        <div id="services" class="card p-3 w-1/4  bg-blue-300 rounded-lg">
+          <img src="Resources/antenatal.webp.webp" height="250px" width="300px">
+          <p class="text-center">Ultrasound machine</p>
+        </div>
+
+      </div>
+  </section>
+
+  <section id="fourth">
+    <div class="max-w-7xl container text-center mt-12 mx-auto">
+
+      <h1 class=" text-4xl font-bold ml-3 mt-24 md:text-6xl">Who are our doctors?</h1>
+
+
+      <div class="flex flex-col text-center  md:space-y-6 md:flex-col">
+
+        <div
+          class="flex flex-row  mt-16 md:flex-col justify-evenly md:space-y-6 items-center align-center md:space-x-6">
+
+          <div id="staff" class="flex flex-col p-3 mx-auto justify-evenly space-y-6 md:flex-row md:space-x-6">
+            <div class=" staff flex flex-row  items-center p-3 space-y-6  rounded-lg shadow-2xl md:w-1/3">
+              <div><img src="Resources/staff1.jpg" class="w-32 md:w-96" alt="" />
+                <h5 class="text-lg font-bold">Anisha Li</h5>
+              </div>
+              <p class="md:text-lg ">
+                The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.
+              </p>
+            </div>
+
+
+            <div class=" staff flex  flex-row  items-center p-3 space-y-6  rounded-lg shadow-2xl md:w-1/3">
+              <div><img src="Resources/staff1.jpg" class="w-32 md:w-96" alt="" />
+                <h5 class="text-lg font-bold">Anisha Li</h5>
+              </div>
+              <p class="md:text-lg ">
+                The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div
+          class="flex flex-row  mt-10 md:flex-col justify-evenly md:space-y-6 items-center align-center md:space-x-6">
+
+          <div id="staff" class="flex flex-col p-3 mx-auto justify-evenly space-y-6 md:flex-row md:space-x-6">
+            <div class=" staff flex flex-row  items-center p-3 space-y-6  rounded-lg shadow-2xl md:w-1/3">
+              <div><img src="Resources/staff1.jpg" class="w-32 md:w-96" alt="" />
+                <h5 class="text-lg font-bold">Anisha Li</h5>
+              </div>
+              <p class="md:text-lg ">
+                The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.
+              </p>
+            </div>
+
+
+            <div class=" staff flex  flex-row  items-center p-3 space-y-6  rounded-lg shadow-2xl md:w-1/3">
+              <div><img src="Resources/staff1.jpg" class="w-32 md:w-96" alt="" />
+                <h5 class="text-lg font-bold">Anisha Li</h5>
+              </div>
+              <p class="md:text-lg ">
+                The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <div id="fifth" class="container mx-auto">
+    <div class="max-w-7xl container text-center mt-10 mx-auto">
+      <h1 class=" text-4xl font-bold ml-3 md:text-6xl">How to contact us?</h1>
+      <div class="flex flex-col md:items-center space-y-6 md:flex-row justify-evenly mt-8 text-xl">
+        <div class="mx-auto">
+          <p>Call us now<br> <a href="tel: +251911612181" class="text-green-700 font-bold"><i class="fa fa-phone"></i> +251-911-61-21-81</a></p>
+        </div>
+        <div class="mx-auto"> 
+          <p> Email us <br> <a href="mailto:meselewechefo2005@gmail.com> Subject=subject text"><i class="fa fa-envelope"
+                aria-hidden="true"></i>
+              meselewechefo2005@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+      <h2 class="mt-8 text-2xl ml-5 "> Locations of our branches</h2>
+      <div class="mt-10 flex items-center  flex-col md:flex-row justify-evenly">
+        <div class="space-y-8">
+          <p class="font-bold">Enderase-1 Medium Clinic</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d15761.78103078835!2d38.7594833!3d9.0230836!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.0125004!2d38.772912!4m5!1s0x164b852151d1e9ab%3A0x98efdcf569c9bc88!2senederase%20clinic!3m2!1d9.033427!2d38.759806999999995!5e0!3m2!1sen!2set!4v1658326515511!5m2!1sen!2set"
+            width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="rounded-lg pb-3" ></iframe>
+        </div>
+        <div class="space-y-10">
+          <p class="font-bold">Enderase-2 Medium Clinic</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16705.711957637508!2d38.79830062678548!3d8.87746665472918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b794fa57008db%3A0xeb371ab5e9a42daa!2zVHVsdSBEaW10dSBzcXVhcmUgfCDhibHhiIkg4Yuy4Yid4YmxIOGKoOGLsOGJo-GJo-GLrQ!5e0!3m2!1sen!2set!4v1658326828336!5m2!1sen!2set"
+            width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="rounded-lg pb-3" ></iframe>
+        </div>
+        <div class="space-y-6 ">
+          <p class="font-bold"> Dr.Abeba Dental clinc</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126096.47781392041!2d38.633168716406246!3d9.016701599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b854f73016c0d%3A0x92110cc46033a9dd!2sDr%20Abeba%20Dental%20Clinic!5e0!3m2!1sen!2set!4v1658326901592!5m2!1sen!2set"
+            width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="rounded-lg pb-3" ></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="footer" class="bg-slate-600 flex flex-col items-center text-center justify-evenly  pt-5">
+    <div id="innerfooter"
+      class="mx-auto flex flex-col-reverse  container items-center md:justify-between md:flex-row justify-evenly">
+      <div id="icons" class="flex flex-row md:flex-col justify-between md:space-y-6">
+
+        <a
+          href="https://www.facebook.com/Enderasie-Medium-Visionary-family-Doctors-Clinic-103723217027636/?hc_ref=ARSrQuARN53cp_E248Kky9s-8uUzSfy_pqOocwS9AIeq4heZDiqYdj1ZIO-14tP9pFo&fref=nf&__xts__[0]=68.ARCMk_3IXRVqm3rhxPhGMb6o1ckIVaI8Tja8rpFfRBnQzLF7dojubQOdDDA6pmHGel2akyuSbBIEgkFGMvtJQIkvVlHoozdxS-LGHAuBURoeD5eF54JFZQ86lMxrStX7EGp1HTMgyZoUvCb2pDk0OFBkOt1U8wmgdvncPNAlYZdGsQr5Jxai6cDhT2-hZzENrBxHGdoGSE7jUQRZUQPcFt4Iicysg7889GyJnZl0tn0gaPZO1cq8hz-fOjkixDgY3ph8LGZbj-49MZ4AuJlfLTEG_illI7SSkZ34_rq2QYQKjcW2KjqCQwzax-PFI6KIgOF1uDFFrQ&__xts__[1]=68.ARBW0Hb5Hu7OUKMgbnDIS0Kpr1wR5qUF3kE8hdxwaXluTrY0hodvynMjPcoK1zcd7CN4mV-t-SQFyc1g0PH2I6wv8bnM_QXbP4pNo2cNfJnzMJ_p9dqlBj4fm9is3rGEOrx3mqFdCJ-dTEaTfi2p7raQB7L_1GEiMA2hyyj84RrRIBRb_BzWSByyPQ4K9k_OX_KBBSBd2DGtOQzjVkqvfkP48MYM0lrNfYUHuk_ehHHuxPYTtXgi_Ar6gigqxpkEiszXMauplNgantzcIvkVmfj1GhisV9IjzDEHKas5_h5RQXhbE0lu3S_N4eMmLjdlrBlyB9ugTg&__tn__=kC-R">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="mailto:meselewechefo2005@gmail.com> Subject=subject text"><i class="fa fa-envelope"
+            aria-hidden="true"></i></a>
+
+      </div>
+
+      <div id="links" class="flex  flex-col text-center mt-10 justify-evenly md:mt-5 md:text-lg">
+        <div class="flex flex-row justify-evenly">
+          <ul>
+           <a href="#hero"><li class="hover:text-blue-400 font-bold">Home</li></a> 
+         <a href="#second"><li class="hover:text-blue-400 font-bold">About us</li></a> 
+         <a href="#third"><li class="hover:text-blue-400 font-bold">Services</li></a> 
+         <a href="#fourth"><li class="hover:text-blue-400 font-bold">Our staff</li></a> 
+         <a href="#fifth"><li class="hover:text-blue-400 font-bold">Contact us</li></a> 
+          </ul>
+
+          <ul class="pt-10">
+            <li class="hover:text-blue-400">Our Community</li>
+            <li class="hover:text-blue-400"> <a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="mt-5" id="arrow" >
+        <a href="#hero"><i class="fa fa-arrow-up" class="text-xl" aria-hidden="true"> Back to top</i>
+        </a>
+      </div>
+
+    </div>
+    <p class="font-bold mb-1"> God bless the hands that cure</p>
+    <p class="font-bold ">  All roads lead to Enderse clinics</p>
+    <div class="md:mt-6">
+      <h1 id="date"> </h1>
+      <h2 class=""> ©Copyright 2022. All rights reserved. Designed by Lisabeth K. </h2>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    let btn = document.getElementById("btn")
+    let list = document.getElementById("menu_list")
+    let date = document.getElementById("date")
+    list.classList.toggle('hidden')
+    list.classList.toggle('flex')   
+    btn.addEventListener('click', () => {
+       list.classList.toggle('hidden') 
+      btn.classList.toggle('open')
+      
+      list.classList.toggle('flex')   
+    })
+
+    var dt = new Date();
+
+    dt.getFullYear() + "/" + (dt.getMonth() + 1) + "/" + dt.getDate();
+    date.innerHTML = dt.getFullYear() + "/" + (dt.getMonth() + 1) + "/" + dt.getDate();
+  </script>
+</body>
+
+</html>
