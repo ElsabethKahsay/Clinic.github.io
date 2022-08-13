@@ -73,11 +73,7 @@ body {
   }
 }
 @media (max-width:1072px){
-  #hero{
-    background-image: url('/img/back.png');
-    background-size: cover;
-
-  }
+ 
 }
 @media (max-width: 936px) {
   #cards {
@@ -95,9 +91,7 @@ body {
 }
 
 @media (min-width: 778px) {
-  #hero{
-    background-image: url('/img/back.png');
-  }
+  
   #grid {
     grid-template-columns: repeat(2, 1fr);
     align-self: center;
